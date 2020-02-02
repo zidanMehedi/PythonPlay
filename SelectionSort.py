@@ -9,5 +9,5 @@ def selectionSort(A):
             A[i],A[min_index]=A[min_index],A[i]
             print('After Swap -------> ',A)
             print()
-A=[3,2,5,9,7,8,13,12,10,22,18,16,15,21,25]
+A=[3,2,5,9,7,8,13,12,10,22,18,16,15,21,25,24]
 selectionSort(A)
