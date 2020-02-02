@@ -1,4 +1,6 @@
 def insertionSort(A):
+    print('The list is ',A)
+    print()
     for i in range(1,len(A)):
         key=A[i]
         j=i

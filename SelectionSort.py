@@ -1,4 +1,6 @@
 def selectionSort(A):
+    print('The list is ',A)
+    print()
     for i in range(len(A)-1):
         min_index=i
         for j in range((i+1),len(A)):
