@@ -1,0 +1,7 @@
+a=int(input('Enter a number for A: '))
+b=int(input('Enter a number for B: '))
+print('The Given Numbers Are {0} and {1}'.format(a,b))
+print('Áddition is :',(a+b))
+print('Substraction is :',(b-a))
+print('Multiplication is :',(b*a))
+print('Division is :',(b/a))
