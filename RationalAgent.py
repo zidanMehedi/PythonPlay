@@ -27,9 +27,9 @@ class vaccumEnvironment:
         elif action=='Left' and agent.location==loc_B: agent.location=loc_A
         elif action=='Right' and agent.location==loc_C: agent.location=loc_D
         elif action=='Left' and agent.location==loc_D: agent.location=loc_C
-        if action=='Down' and agent.location==loc_A: agent.location=loc_C
+        elif action=='Down' and agent.location==loc_A: agent.location=loc_C
         elif action=='Down' and agent.location==loc_B: agent.location=loc_D
-        if action=='Up' and agent.location==loc_C: agent.location=loc_A
+        elif action=='Up' and agent.location==loc_C: agent.location=loc_A
         elif action=='Up' and agent.location==loc_D: agent.location=loc_B
         elif action=='Suck':
             #if self.status[agent.location]=='Dirty'
