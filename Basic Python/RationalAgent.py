@@ -149,12 +149,12 @@ class modelBasedVaccumAgent(Agent):
 
 
 
-##Tagent=tableDrivenVaccumAgent()
-##env=vaccumEnvironment()
-##env.add_object(Tagent)
-##for steps in range(10):
-##    action=Tagent.program(env.percept(Tagent))
-##    env.execute_action(Tagent,action)
+Tagent=tableDrivenVaccumAgent()
+env=vaccumEnvironment()
+env.add_object(Tagent)
+for steps in range(10):
+    action=Tagent.program(env.percept(Tagent))
+    env.execute_action(Tagent,action)
             
 ##Ragent=reflexVaccumAgent()
 ##env=vaccumEnvironment()
@@ -166,12 +166,12 @@ class modelBasedVaccumAgent(Agent):
 
 
             
-Magent=modelBasedVaccumAgent()
-env=vaccumEnvironment()
-env.add_object(Magent)
-for steps in range(15):
-    action=Magent.program(env.percept(Magent))
-    env.execute_action(Magent,action)
+##Magent=modelBasedVaccumAgent()
+##env=vaccumEnvironment()
+##env.add_object(Magent)
+##for steps in range(15):
+##    action=Magent.program(env.percept(Magent))
+##    env.execute_action(Magent,action)
 
 
 
