@@ -56,6 +56,30 @@ print(arr[0:3,2:3]) #2D slicing
 arr = np.array([[1,2,3,4],[5,6,7,8],[10,20,30,40],[50,60,70,80]])
 print(arr[::2,1::2]) #2D slicing
 
+#Advanced Indexing
+
+arr = np.arange(5,100,5)
+print(arr[[3,7,11]]) #returns only selected indexed values
+
+arr = np.arange(5,100,5)
+print(arr[[3,7,3,7,3,7,3,7]]) #returns only selected indexed values as much time as called
+
+arr = np.array([[1,2,3,4],[4,5,6,7],[8,9,10,11]])
+print(arr)
+print(arr[[1,2],[3,3]]) #returns only selected indexed values from 2D array
+
+print(arr[[1,2,0],[3,3,1]]) #returns only selected indexed values from 2D array
+
+print(arr[[1,2,1,2,1,2,1,2],[3,3,3,3,3,3,3,3]]) #returns only selected indexed values from 2D array as much time as called
+
+arr = np.random.randn(5,3)
+print(arr)
+print(arr[arr>0]) #boolean indexing, returns all positive numbers of array
+
+print(arr[arr<0]) #boolean indexing, returns all negative numbers of array
+
+
+
 
 
 
